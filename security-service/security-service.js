@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('ngSecurityService', [
+  'ngSecurityInterceptor',
   'ngSecurityRetryQueue',
   'ngAuthService'
 ])
